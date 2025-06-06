@@ -32,3 +32,16 @@ Ensure MongoDB is running on your system
 
 📌 Project Goal
 The goal of Handyloop is to simplify the process of booking home services by offering a centralized platform with a clean UI and reliable backend.
+
+🚀 How to Run the Project
+Make sure MongoDB is installed and running on your system.
+
+Install and launch a local server like XAMPP or WAMP.
+
+Place the project folder inside the htdocs directory (if you're using XAMPP).
+
+Start the Apache server from your local server control panel.
+
+Ensure the MongoDB server is running.
+
+Open your browser and visit http://localhost/handyloop/ to use the website.
