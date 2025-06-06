@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>men salon page</title>
+    <link rel="stylesheet" href="/mensalonpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="menu">
+            <div class="brand-logo">
+                <img src="imgs/logo.png" alt="logo">
+            </div>
+            <div class="menu-item">
+                <a href="index.html">Home</a>
+                <a href="womensalonpage.html">Women-Salon</a>
+                <a href="paintingpage.html">Painting</a>
+                <a href="cleaningpage.html">Cleaning</a>
+            </div>
+        </div>
+        <div id="food-container">
+            <div id="header">
+                <div class="util">
+                    <i class="fa fa-cart-plus" id="cart-plus">0 Items</i>
+                </div>
+            </div>
+            <div id="food-items" >
+                <div id="Massage">
+                    <p id="category-name">Massage</p>
+                </div>
+                <div id="Facialscleanups">
+                    <p id="category-name">Facials&cleanups</p>
+                </div>
+                <div id="Pedicure">
+                    <p id="category-name">Pedicure</p>
+                </div>
+                <!-- item name -->
+                <div id="Haircare">
+                    <p id="category-name">Haircare</p>
+                </div>
+            </div>
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amount : $ 100</p>
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </thead>
+                    <tbody id="table-body">
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div id="cart">
+            <div id="category-list">
+                <p class="item-menu">choose your best</p>
+                <div class="border"></div>
+            
+            </div>
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item">Total Item : 5</p>
+                <p id="total-price">Total Price : $ 50</p>
+                <p id="delivery">Free Delivery above $ 40</p>
+                <button class="cart-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+    <!-- javascript file -->
+    <script src="/mensalonpage.js" type="module"></script>
+</body>
+</html>
